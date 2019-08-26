@@ -11,9 +11,10 @@
 .nav-div div{
     display: inline-flex;
     width: 30%;
-    border: 1px solid green;
+    border: 1px solid black;
     padding: 10px;
     -webkit-appearance: button;
+    justify-content: center;
     
 }
 .nav-div div:hover{
@@ -41,7 +42,7 @@ h3{
     text-align: center;
 
 }
-html, body{
+html,body{
     height: 100%;
 }
 
