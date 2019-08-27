@@ -5,8 +5,7 @@
 .nav-div {
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    background-color: black;
+    background-color:red;
 }
 .nav-div div{
     display: inline-flex;
@@ -18,24 +17,26 @@
     
 }
 .nav-div div:hover{
-    background-color: red;
+    background-color: darkred;
 }
 
 .cards-class{
-    display:flex;
     justify-content: space-around;
+    position: relative;
+    
 }
 .card{
     border: 1px solid black;
     width: 30%;
-    justify-content: inline-block; 
-
+    display: inline-block; 
+    
 }
 .card img{
     display: flex;
-    border: 1px solid white;
+    border: 1px solid  black;
     width: 100%;
     box-sizing: border-box;
+    
 }
 h3{
     color: black;
@@ -48,6 +49,7 @@ html,body{
 
 #container{
     min-height: 50%;
+
 
 }
 
