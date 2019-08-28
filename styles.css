@@ -5,7 +5,7 @@
 .nav-div {
     width: 100%;
     display: flex;
-    background-color:red;
+    background-color:gray;
 }
 .nav-div div{
     display: inline-flex;
@@ -29,14 +29,14 @@
     border: 1px solid black;
     width: 30%;
     display: inline-block; 
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
     
 }
 .card img{
     display: flex;
-    border: 1px solid  black;
-    width: 100%;
-    box-sizing: border-box;
-    
+    width: 90%;
+    height: 50%;
 }
 h3{
     color: black;
@@ -49,13 +49,11 @@ html,body{
 
 #container{
     min-height: 50%;
-
-
 }
 
 #main{
-    overflow: auto;
     padding-bottom: 100px;
+    overflow: hidden;
 }
 
 #footer{
@@ -66,8 +64,16 @@ html,body{
     clear: both;
 }
 p{
-    color: white;
+    color: black;
 }
 h1{
     text-align: center;
+}
+h4{
+}
+.bio{
+    border: 1px solid black;
+    width: 30%;
+    display: table-cell ; 
+
 }
